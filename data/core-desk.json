@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "plans": [
+    {
+      "id": "PL-SEED-01",
+      "version": 1,
+      "active": true,
+      "coreId": "CORE-001",
+      "borehole": "ZK-17",
+      "coreBox": "BX-09",
+      "topDepth": 128.4,
+      "bottomDepth": 128.8,
+      "azimuth": 142,
+      "dip": 6,
+      "sampleLength": 0.32,
+      "owner": "陆川",
+      "createdAt": "2026-06-12T10:00:00.000Z",
+      "updatedAt": "2026-06-12T10:00:00.000Z",
+      "history": []
+    }
+  ],
+  "slices": [
+    {
+      "id": "SL-001-A",
+      "planId": "PL-SEED-01",
+      "planVersion": 1,
+      "offset": 0,
+      "length": 0.12,
+      "status": "已核销",
+      "reason": "",
+      "createdAt": "2026-06-12T10:00:00.000Z",
+      "evaluatedAt": "2026-06-12T10:00:00.000Z"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "DLV-SEED-01",
+      "sliceId": "SL-001-A",
+      "planId": "PL-SEED-01",
+      "planVersion": 1,
+      "valid": true,
+      "at": "2026-06-13T11:20:00.000Z"
+    }
+  ]
+}
