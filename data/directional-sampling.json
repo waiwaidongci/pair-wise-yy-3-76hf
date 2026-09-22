@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "seq": {
+    "core": 1,
+    "slice": 0,
+    "delivery": 0
+  },
+  "cores": [
+    {
+      "id": "CORE-001",
+      "project": "东岭铜矿薄片",
+      "borehole": "ZK-17",
+      "coreBox": "BX-09",
+      "topDepth": 128.4,
+      "bottomDepth": 128.8,
+      "owner": "陆川",
+      "createdAt": "2026-09-22T07:23:22.697Z",
+      "legacySlices": [
+        {
+          "id": "SL-001-A",
+          "method": "茜素红染色",
+          "observation": "",
+          "status": "研磨",
+          "logs": [
+            {
+              "at": "2026-06-12T10:00:00.000Z",
+              "step": "取样",
+              "note": "截取含矿化条带位置"
+            },
+            {
+              "at": "2026-06-13T11:20:00.000Z",
+              "step": "切割",
+              "note": "完成粗切"
+            }
+          ],
+          "archived": "旧系统留档"
+        }
+      ]
+    }
+  ],
+  "plans": [],
+  "slices": [],
+  "deliveries": [],
+  "requests": []
+}
